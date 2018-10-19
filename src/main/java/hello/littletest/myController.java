@@ -14,7 +14,7 @@ public class myController {
     @GetMapping("/hello")
     @ResponseBody
     public String hello(){
-        return "普通Controller";
+        return "普通Controller,普通的我";
 
     }
 }

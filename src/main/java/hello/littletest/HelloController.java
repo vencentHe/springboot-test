@@ -17,6 +17,7 @@ public class HelloController {
         p.setId(id);
         p.setAge(25);
         p.setName("诸葛亮");
+        p.setName("赵云");
         return p;
         // return "welcome to my world!";
     }
